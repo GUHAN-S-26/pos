@@ -3,10 +3,12 @@ import react from '@vitejs/plugin-react';
 import path from 'path';
 import {defineConfig} from 'vite';
 
-// GitHub Pages serves the app from a sub-path: https://<user>.github.io/pos/
-// The repository name is "pos", so all built asset URLs must be prefixed with /pos/.
+// GitHub Pages serves the app from a sub-path:
+//   https://guhan-s-26.github.io/retail-pos-inventory-system/
+// The repository name is "retail-pos-inventory-system" (renamed from "pos"),
+// so all built asset URLs must be prefixed with that path.
 // Override with BASE_PATH when serving from a custom domain (set BASE_PATH=/ for root hosting).
-const GITHUB_PAGES_BASE = '/pos/';
+const GITHUB_PAGES_BASE = '/retail-pos-inventory-system/';
 
 export default defineConfig(() => {
   return {
