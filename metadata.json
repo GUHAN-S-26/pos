@@ -1,0 +1,6 @@
+{
+  "name": "Retail POS & Inventory System",
+  "description": "Desktop-oriented retail billing, inventory management, purchase tracking and GST reporting system with dual English and Tamil support.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
